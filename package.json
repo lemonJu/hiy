@@ -1,0 +1,26 @@
+{
+  "name": "hiyou",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemonJu/hiy.gi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lemonJu/hiy.gi/issues"
+  },
+  "homepage": "https://github.com/lemonJu/hiy.gi#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^1.2.0",
+    "grunt-contrib-livereload": "^0.1.2",
+    "grunt-contrib-watch": "^1.0.0",
+    "mysql": "^2.10.2"
+  }
+}

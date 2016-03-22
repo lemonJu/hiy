@@ -1,0 +1,108 @@
+/*
+  zindex  100开始
+*/
+body {
+  background: #f7f8fb;
+  font-family: '微软雅黑';
+}
+.page-header {
+  background: #fff;
+  height: 50px;
+}
+.page-header .page-header-title {
+  color: #676767;
+  font-size: 14px;
+  line-height: 50px;
+  text-indent: 60px;
+}
+.page-aside {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 100%;
+  background: #2a2a2a;
+  z-index: 10000;
+}
+.page-content {
+  width: 900px;
+  margin: 50px auto;
+}
+.page-content .article {
+  width: 600px;
+}
+.page-content .article .article-item {
+  margin-top: 10px;
+  background: #fff;
+}
+.page-content .article .article-item.article-brief .article-title {
+  margin: 0 !important;
+}
+.page-content .article .article-item.article-brief .article-brief-box {
+  text-indent: 20px;
+  margin-top: 10px;
+}
+.page-content .article .article-item.article-brief .article-brief-box .brief {
+  line-height: 16px;
+}
+.page-content .article .article-item .intro {
+  width: 450px;
+  padding: 17px 20px;
+}
+.page-content .article .article-item .intro .author,
+.page-content .article .article-item .intro .time,
+.page-content .article .article-item .intro .comment,
+.page-content .article .article-item .intro .read,
+.page-content .article .article-item .intro .like,
+.page-content .article .article-item .intro .brief {
+  margin-left: 3px;
+  color: #a4a4a4;
+  font-size: 12px;
+  font-weight: normal;
+}
+.page-content .article .article-item .intro .article-title {
+  display: block;
+  margin-top: 10px;
+}
+.page-content .article .article-item .intro .article-title h1 {
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+.page-content .article .article-item .intro .article-title h1 strong {
+  margin-right: 5px;
+  color: #000;
+  font-size: 18px;
+}
+.page-content .article .article-item .intro .article-footer {
+  margin-top: 10px;
+}
+.page-content .article .article-item .photo img {
+  height: 93px;
+  width: 70px;
+  position: relative;
+  top: -10px;
+  left: -10px;
+  -webkit-box-shadow: 0 0 3px #777;
+  -moz-box-shadow: 0 0 3px #777;
+  box-shadow: 0 0 3px #777;
+}
+.page-content .recommend {
+  margin-left: 650px;
+}
+.page-content .recommend .labels .label {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-top: 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 14px;
+  font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+.page-content .recommend .labels .label:hover {
+  background: #61cbd8;
+  color: #fff;
+}
