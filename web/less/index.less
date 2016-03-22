@@ -24,10 +24,31 @@ body{
   position: fixed;
   left: 0;
   top: 0;
-  width: 40px;
+  width: 50px;
   height: 100%;
   background: #2a2a2a;
   z-index: 10000;
+  .navbar{
+    li{
+      display: block;
+      height: 50px;
+      a{
+        display: block;
+        height: 100%;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        line-height: 50px;
+        &.home{
+          background: #61cbd8;
+        }
+        &:hover{
+          i{}
+          background: #61cbd8;
+        }
+      }
+    }
+  }
 }
 
 .page-content{
@@ -114,3 +135,4 @@ body{
     }
   }
 }
+
